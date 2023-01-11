@@ -1,0 +1,33 @@
+{
+    "DB": {
+        "HOST": "",
+        "PORT": "",
+        "AUTH": true,
+        "USERNAME": "",
+        "DATABASE": "",
+        "PASSWORD": "",
+        "MONGOOSE": {
+            "useMongoClient": true,
+            "autoIndex": true,
+            "poolSize": 10,
+            "bufferMaxEntries": 0
+        }
+    },
+ 
+    "APP": {
+        "URL": "http://localhost:4200",
+        "APIHOST": "http://localhost:4200"
+    },
+    "FRONTEND": {
+        "URL": "http://localhost:4200",
+        "APIHOST": "http://localhost:4200"
+    },
+    "dataEncryptionKey": "medAugeo-is@a#healthcare$platform",
+    "SiteLogo": "http://localhost:8024/uploads/MEPA_LOGO.jpg",
+    "WebEndPoint": "http://localhost:4200",
+    "PatientContentURL" : "http://localhost:4200/patient-content/view/",
+    "FRONTENDPORT": 8023,
+    "PORT": 8023,
+    "sessionExpiredTime": 600,
+    "PasswordChangeTimeout" : 15 
+}
